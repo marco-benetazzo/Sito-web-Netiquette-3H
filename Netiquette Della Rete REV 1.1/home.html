@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<style>
+
+
+/* varianti cursori*/
+.alias {cursor: alias;}
+.all-scroll {cursor: all-scroll;}
+.auto {cursor: auto;}
+.cell {cursor: cell;}
+.context-menu {cursor: context-menu;}
+.col-resize {cursor: col-resize;}
+.copy {cursor: copy;}
+.crosshair {cursor: crosshair;}
+.default {cursor: default;}
+.e-resize {cursor: e-resize;}
+.ew-resize {cursor: ew-resize;}
+.grab {cursor: grab;}
+.grabbing {cursor: grabbing;}
+.help {cursor: help;}
+.move {cursor: move;}
+.n-resize {cursor: n-resize;}
+.ne-resize {cursor: ne-resize;}
+.nesw-resize {cursor: nesw-resize;}
+.ns-resize {cursor: ns-resize;}
+.nw-resize {cursor: nw-resize;}
+.nwse-resize {cursor: nwse-resize;}
+.no-drop {cursor: no-drop;}
+.none {cursor: none;}
+.not-allowed {cursor: not-allowed;}
+.pointer {cursor: pointer;}
+.progress {cursor: progress;}
+.row-resize {cursor: row-resize;}
+.s-resize {cursor: s-resize;}
+.se-resize {cursor: se-resize;}
+.sw-resize {cursor: sw-resize;}
+.text {cursor: text;}
+.url {cursor: url(myBall.cur),auto;}
+.w-resize {cursor: w-resize;}
+.wait {cursor: wait;}
+.zoom-in {cursor: zoom-in;}
+.zoom-out {cursor: zoom-out;}
+
+    @font-face {
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: normal;
+    src: url('ProductSans-Regular.ttf');
+    }
+
+	body {
+		background-color: #1a1a1a
+	}
+
+
+	/*Navbar*/
+
+	ul {
+	  list-style-type: none;
+	  margin: 0;
+	  padding: 0;
+	  overflow: hidden;
+	  background-color:	#787878;
+	  border-radius: 10px 10px 0px 0px;
+	  margin:0px;
+	  top: 0;
+	}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+li a, .dropdown {
+	background-color:	#787878;
+  display: inline-block;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+	li {
+  float: left;
+  
+  border-right: 1px solid #4d4d4d;
+  border-left: 1px solid #4d4d4d;
+}
+
+li a, .dropbtn {
+	  font-family: Product Sans;
+	  font-style: normal;
+	  display: inline-block;
+	  color: white;
+	  text-align: center;
+	  padding: 14px 16px;
+	  text-decoration: none;
+	  width: 100px;
+	  align-content: center;
+	}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color:#4d4d4d;
+  transition-duration: 0.5s;
+}
+
+li.dropdown {display: inline-block;}
+
+.active{
+	background-color: #4d4d4d; 
+}
+
+
+
+	/*Contenuti*/
+
+	header {
+		font-family: Product Sans;
+		color: white;
+		text-align: center;
+		background-color: #4d4d4d;
+		padding: 20px;
+		border-radius: 0px 0px 10px 10px;
+		font-size: 50px;
+		font-weight: bold;
+
+			}
+
+	.text {
+		background-color: rgb(120, 120, 120, 0.5);
+		font-family: Product Sans;
+		border-radius: 10px;
+		color: white;
+		padding: 5px 25px 5px 25px ;
+		position: absolute;
+  		top: 50%;
+  		left: 50%;
+ 		transform: translate(-50%, -50%);
+		font-size:30px;		
+		}
+
+
+	.footer {		
+		background-color: #787878;
+		font-family: Product Sans;
+		color: white;
+		width: 100%;
+		position: fixed;
+		text-align: center;
+		left: 0;
+		bottom: 0;
+		margin-top: 20px;	
+		height: 50px;
+
+			}
+
+
+
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+}
+
+.title{	
+			
+			
+		font-family: Product Sans;
+		border-radius: 10px;
+		color: white;
+		font-weight: bold;
+		font-size: 75px;
+}
+
+.button1 {
+font-family: Product Sans;
+  background-color: rgb(120, 120, 120, 0.3);
+  border: 2px solid white;
+  color: white;
+  padding: 5px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 24px;
+  border-radius: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  transition-duration: 0.5s;
+   position: absolute;
+   left: 50%;
+   bottom: -100%;
+     -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+}	
+
+
+
+.button1:hover  {
+	background-color: rgb(120, 120, 120);
+	border: 2px solid rgb(120, 120, 120);
+}
+
+img {
+	border-radius: 10px;
+	width: 100%;
+	margin-bottom: 50px;
+	}
+
+</style>
+
+
+
+
+
+<body>
+
+	<navbar>
+		<ul>
+      <li><a class="active" href="#home">Home</a></li>
+        <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Contenuti</a>
+    <div class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  </li>
+      <li style="float:right"><a href="#about">About</a></li>
+		</ul>
+		
+	</navbar>
+
+	<header>
+		Netiquette della Rete: Home Page
+	</header>
+
+
+	<title>
+		
+	</title>
+
+<div class=	'container'>
+	<img src=".\images\homemain.jpg">
+  	<div class='text'>
+  		<div class='title'>Benvenuto</div>
+		      Clicca sul bottone qui sotto per iniziare il tour del sito.
+
+		      <button class='button1' href="#contents1">Iniziamo!</button>
+		 </div>
+</div>
+
+<div class='footer'>
+	test
+</div>
+
+
+
+
+</body>
