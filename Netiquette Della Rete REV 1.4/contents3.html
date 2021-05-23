@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="it">
+<link rel="stylesheet" type="text/css" href="./Css/File css content3.css">
+<style>
+	
+    @font-face {
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: normal;
+    src: url('ProductSans-Regular.ttf');
+    }
+
+	body {
+		background-image: url('./images/cose.png');
+		  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  
+  background-size: cover;
+	}
+
+
+	/*Navbar*/
+
+	ul {
+	  list-style-type: none;
+	  margin: 0;
+	  padding: 0;
+	  overflow: hidden;
+	  background-color:	#787878;
+	  border-radius: 10px 10px 0px 0px;
+	  margin:0px;
+	  top: 0;
+	}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+li a, .dropdown {
+	background-color:	#787878;
+  display: inline-block;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  font-size: 16px;
+}
+
+	li {
+  float: left;
+  
+  border-right: 1px solid #4d4d4d;
+  border-left: 1px solid #4d4d4d;
+}
+
+li a, .dropbtn {
+	  font-family: Product Sans;
+	  font-style: normal;
+	  display: inline-block;
+	  color: white;
+	  text-align: center;
+	  padding: 14px 16px;
+	  text-decoration: none;
+	  width: 100px;
+	  align-content: center;
+	}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color:#4d4d4d;
+  transition-duration: 0.5s;
+}
+
+li.dropdown {display: inline-block;}
+
+.active{
+	background-color: #4d4d4d; 
+}
+
+
+
+	/*Contenuti*/
+
+	header {
+		font-family: Product Sans;
+		color: white;
+		text-align: center;
+		background-color: #4d4d4d;
+		padding: 20px;
+		border-radius: 0px 0px 10px 10px;
+		font-size: 50px;
+		font-weight: bold;
+
+			}
+
+	h1 {
+		font-family: Product Sans;
+		color: white;
+		padding: 20px;
+		font-size: 35px;
+		font-weight: bold ;
+	}
+	
+
+	
+</style>
+
+
+<body>
+	
+<navbar>
+		<ul>
+      <li><a href="./home.html">Home</a></li>
+        <li class="dropdown">
+    <a class="active"  href="javascript:void(0)" class="dropbtn">Contenuti</a>
+    <div class="dropdown-content">
+      <a href="./contents1.html">Educazione</a>
+      <a href="./contents2.html">Cyberbullismo</a>
+      <a class="active" href="./contents3.html">Consigli</a>
+    </div>
+  </li>
+      <li style="float:right"><a href="./about.html">About</a></li>
+		</ul>
+		
+	</navbar>
+
+	<header>
+		Netiquette della Rete: Consigli
+	</header>
+
+	<h1>Consigli per una sicura navigazione su Internet</h1>
+
+	<div section1>
+		<div class="text1">Se si opera quotidianamente online, proteggere i dati personali è fondamentale per difendersi dalle insidie che nascondono la rete. Di seguito sono riportati alcuni consigli utili per navigare in sicurezza.</div>
+		<div class="title">Scegliere le password con cura</div>
+		<div class="text">Le password sono un punto fondamentale della  sicurezza online, sceglierle con accuratezza può fare la differenza. Le  password non devono contenere informazioni personali come nome, cognome, data di nascita o indirizzo di residenza, perchè queste informazioni sono facilmente reperibili e la password non godrebbe di una sicurezza adeguata.
+		È consigliabile comporla di almeno 8 caratteri utilizzando numeri e lettere sia maiuscole che minuscole, inolotre l'aggiunta di caratteri speciali (@,!,&) può renderla più sicura.</div>
+		<div class="title">Evitare di scaricare programmi da siti non sicuri</div>
+		<div class="text"> Spesso è possibile trovare su siti pirata software o servizi solitamente a pagamento, disponibili gratuitamente, in questi casi è probabile, che scaricandoli da queste fonti incerte, alcuni ospiti indesiderati potrebbero impedire il corretto funzionamento del computer. 
+		In qualsiasi caso quando si installa un programma bisogna fare molta attenzione alle spunte da inserire nel processo di installazione in quanto è frequente che insieme al programma si installino anche nuovi browser che si sostituiscono a Google o fastidiose toolbar.</div>
+		<div class="title">Installare un antivirus e mantenerlo aggiornato</div>
+		<div class="text">Un altra regola da rispettare, è sicuramente quella di dotare il computer di un buon Antivirus. Online se ne trovano molti anche di gratuiti che offrono un ottima protezione. Solitamente tutti gli utenti che navigano sono dotati di Antivirus (spesso i computer al momento dell'acquisto lo sono). L'errore più comune in questo caso sono gli aggiornamenti approssimativi, dietro ogni antivirus ci sono dei team di esperti che lavorano giorno e notte per rilasciare costantemente aggiornamenti di sicurezza.
+		Non restare aggiornati è da incoscenti, quindi è consigliabile a fine giornata di verificare gli aggiornamenti per l'antivirus installato.</div>
+		<form method="get" action="./contents2.html">
+    		<button class="button2" type="submit">Indietro</button>
+		</form>
+	 	<form method="get" action="./about.html">
+    		<button class="button1" type="submit">Avanti</button>
+		</form>
+	</div>
+<div class='footer'>
+	<div class="copyright">© 2021 Lu Cavalu Company</copyright>
+</div>
+
+</body>
