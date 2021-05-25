@@ -1,0 +1,35 @@
+- sezione 1: comportamenti generali
+		- rispondere ai commenti in maniera educata
+		- evitare di scrivere cose offensive
+		- evitare di usare un linguaggio scurrile
+		- non condividere le fake news
+		- rispettare termini e regole di siti e community
+- sezione 2: cyberbullismo
+		- non si può insultare utenti solo perchè la pensano diversamente
+		- ricordarsi che gli utenti sono delle persone
+		- ricordarsi che tutto  quello che si scrive rimane per sempre salvato
+		- come proteggersi e reagire ai "cyberbulli"
+		- conseguenze penali
+- sezione 3: consigli per navigare su internet in sicurezza
+		- usare pwd complesse
+		- tenere private le info sensibili
+		- non acquistare da siti non sicuri
+		- non scaricare programmi non sicuri (malware)
+		- controllare i certificati ssl
+		- non scaricare materiale illegale 
+			-conseguenze penali
+		
+
+
+
+
+
+TEMPLATE
+	<div class="container">
+		<div sezione1>
+			<div class="title"></div>
+			<div class="columns">
+				<div class="text"></div>
+			</div>
+		</div>
+	</div>

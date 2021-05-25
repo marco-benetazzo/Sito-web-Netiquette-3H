@@ -1,0 +1,137 @@
+.text {
+		font-family: Product Sans;
+		color: white;
+		padding: 20px 25px 20px 25px ;
+		text-align: justify;
+		font-size: 23px;	
+		background-color: rgb(77,77,77,0.6) ;
+		border-radius: 0px 0px 10px 10px;
+		margin-bottom: 40px;
+		animation: infinite-alternate 1s;
+
+		}
+		@keyframes infinite-alternate{
+
+			0%{
+				opacity: 0%;
+				margin-top: 20px;	
+			}
+
+			100%{
+				opacity: 100%;
+				margin-top: 0px;
+			}
+
+		}
+
+		.text:hover {
+	background-color: rgb(77,77,77,0.9);	
+	transition-duration: 0.4s;
+
+}
+
+
+.title:hover {
+	background-color: rgb(120, 120, 120);
+	transition-duration: 0.4s;
+}
+
+
+		.title {
+				font-family: Product Sans;
+				font-weight: bold;
+				font-size: 30px;
+				color: white;
+				background-color: rgb(120, 120, 120, 0.9);
+				border-radius: 10px 10px 0px 0px;
+				position: left;
+				padding: 5px 25px 5px 25px;
+				margin-top: 0px;
+				animation: infinite-alternate 1s;
+				}
+
+	.container {
+
+				font-family: Product Sans;
+				border-radius: 10px;
+
+				border: 20px solid #4d4d4d;
+				margin-bottom: 100px;
+				}
+ 
+
+	
+	.footer {		
+		background-color: #778899;
+		font-family: Product Sans;
+		color: white;
+		width: 100%;
+		position: fixed;
+		text-align: center;
+		left: 0;
+		bottom: 0px;	
+		height: 20px;
+		}
+
+
+.button1 {
+font-family: Product Sans;
+  background-color: rgb(120, 120, 120, 0.3);
+  border: 2px solid white;
+  color: white;
+  padding: 5px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 24px;
+  border-radius: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  transition-duration: 0.5s;
+  float: right;
+
+     -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+}	
+
+
+
+.button1:hover  {
+	background-color: rgb(120, 120, 120);
+	border: 2px solid rgb(120, 120, 120);
+}
+.button2 {
+font-family: Product Sans;
+  background-color: rgb(120, 120, 120, 0.3);
+  border: 2px solid white;
+  color: white;
+  padding: 5px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 24px;
+  border-radius: 10px;
+  margin-left: 130px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  transition-duration: 0.5s;
+  float: left;
+
+     -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+}	
+
+
+
+.button2:hover  {
+	background-color: rgb(120, 120, 120);
+	border: 2px solid rgb(120, 120, 120);
+}
+.copyright {
+			position: bottom;
+			}		
+
+.section2 {margin-top: 25px;}
+
